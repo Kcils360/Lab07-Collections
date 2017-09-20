@@ -21,6 +21,7 @@ namespace lab07Collections
             BroccoliCheese.HandPieFlavor = Flavor.Cheeseburger;
 
 
+
             inventory.Add(BroccoliCheese);
             inventory.Add(MacAndCheese);
             inventory.Add(CheeseBurger);
@@ -37,6 +38,7 @@ namespace lab07Collections
             foreach (Product pie in inventory)
             {
                 Console.WriteLine(pie.HandPieFlavor);
+                
                 Console.WriteLine("$"+pie.Price);
                 Console.WriteLine(pie.Frozen);
                 Console.WriteLine("");

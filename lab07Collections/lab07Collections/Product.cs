@@ -43,6 +43,12 @@ namespace lab07Collections
         Broccoli_Cheese_Rice,
         Beef_Stew
     }
-
+    
+    //public string Name { get; set; }
+    
+    //public Student (string name) //constructor - requires a student to have a name
+    //{
+    //    Name = name
+    //}
 
 }
